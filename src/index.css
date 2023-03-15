@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.toasty__container{
+
+}
+.toasty__container .Toastify__toast-icon{
+  width:44px;
+  background:green;
+  border-radius:50%;
+}
+.Toastify__close-button{
+display:none;
+}
+
+.home__links{
+  display:flex;
+  justify-content:flex-end;
+  margin-right:14px
+}
+.link{
+margin-right:44px;
+text-decoration:none;
+font-size:25px;
+margin-bottom:5px;
+color:purple;
+transition:0.3s;
+}
+.link:hover{
+transform:scale(1.2);
+color:pink;
+}

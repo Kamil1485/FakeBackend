@@ -1,0 +1,5 @@
+npm install bootstrap //ccss
+npm install toasty //uyarı mesjı için
+npm install react-router-dom //yönlendirme için giriş sonrası
+
+json-server --w db.json --port 4000 //fake backend oluştur db.json verileriyle
